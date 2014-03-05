@@ -1,0 +1,3 @@
+echo Executing CURL to upload main.rxe on ...
+curl -F"operation=upload" -F"file=@main.rxe" -F"login=BettyHacker" -F"password=SuperGutesPasswort" http://localhost/nxtwebflash/index.php
+echo CURL is terminated.
